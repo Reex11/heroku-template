@@ -168,21 +168,10 @@
   "image": "heroku/nodejs",
   "addons": [
     {
-      "as": "MAILGUN",
-      "plan": "mailgun:starter"
-    },
-    {
       "as": "DATABASE",
       "plan": "heroku-postgresql:hobby-dev",
       "options": {
         "version": "12"
-      }
-    },
-    {
-      "as": "REDIS",
-      "plan": "heroku-redis:hobby-dev",
-      "options": {
-        "version": "6"
       }
     }
   ],
